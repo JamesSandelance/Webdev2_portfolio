@@ -1,0 +1,256 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+   font-family: quicksand;
+   src:url("../fonts/Quicksand Light copy.otf")
+}
+
+* {
+  box-sizing: border-box;
+  font-family: quicksand;
+}
+
+body {
+	background-color: #B6CC9E;
+}
+
+#title {
+	font-size: 60px;
+	margin-left: 20PX;
+	text-decoration: overline;
+}
+
+.big {
+	font-size: 45px;
+}
+
+/*ALL THE INFORMATION AFTER THE NAV*/
+.info {
+	position: absolute;
+	width: 100%;
+	display: block;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	background-color: #E4ECDC;
+	padding: 50px;
+	left: 0;
+}
+
+.p {
+	line-height: 1.6;
+	margin-bottom: 50px;
+}
+
+/* DROPDOWN MENU */
+.about {
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* END OF DROPDOWN MENU */
+
+/* NAV BAR */
+.ulnav {
+	width: 100%;
+	height: 40px;
+	background-color:#364625;
+	text-decoration: none;
+	padding-bottom: 10px;
+	left: 0;
+	position: absolute;
+}
+
+.linav {
+    float: left;
+	display: inline-block;
+	position:relative;
+	font-size: 16px;
+	letter-spacing: 1.7px;
+	padding: 15px;
+	margin-left: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+/* END OF NAV BAR */
+
+/* IMAGES */
+.imglinks {
+	width: 100%;
+	height: auto;
+	margin-bottom: 50px;
+}
+
+.linkpics {
+	width: 200px;
+	height: 150px;
+	padding: 15px;
+	display: inline-block;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top: 5px;
+}
+
+/* END OF IMAGES */
+
+/*FOOTER*/
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #1F1F1F;
+	color: white;
+	text-align: center;
+}
+/*END OF FOOTER*/
+
+/*DESIGN PAGE*/
+
+#designimg {
+	float: left;
+	width: 400px;
+	height: 400px;
+	margin-right: 20px;
+}
+/*END OF DESIGN PAGE*/
+
+/*ABOUT PAGE*/
+
+.below {
+	width: 100%;
+	height: auto;
+}
+
+.aboutp {
+	line-height: 1.6;
+	margin-bottom: 50px;
+}
+
+#aboutimg {
+	float: right;
+	width: 550px;
+	height: 400px;
+	margin-right: 20px;
+	border-radius: 30%;
+	
+}
+
+.lihob {
+	margin-top: 10px;
+}
+
+/*END OF ABOUT PAGE*/
+
+/*MEDIA PAGE*/
+
+video {
+	width: 100%;
+	height: 100%;
+}
+
+/*END OF MEDIA PAGE*/
+
+/* PHOTOGRAPHY PAGE */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  background-color:#B6CC9E;
+  font-size: 30px;
+  text-align: center;
+}
+
+.image {
+	width: 100%;
+	height: auto;
+}
+
+/* END OF PHOTOGRAPHY */
+
+/* CONTACT PAGE */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#email {
+	color: blue;
+}
+
+.infoc {
+	position: absolute;
+	width: 100%;
+	display: block;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	padding: 50px;
+	left: 0;
+    z-index: -1;
+    right: 0;
+    background-color: #D1D1D1; /* For browsers that do not support gradients */
+    background-image: linear-gradient( #E4ECDC, black); 
+}
+
+
+/* END OF CONTACT PAGE */
